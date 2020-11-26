@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(pex.jpg);
+    background-size: cover;
+}
+
+.log_box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(36, 16, 16, 0.7);
+    text-align: center;
+    text-shadow: honeydew;
+}
+.log_box h1{
+    color: rgb(182, 16, 247);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.log_box input[type="text"], .log_box input[type="password"]{
+    border: 0;
+    background-color: rgb(169, 105, 194);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(34, 2, 49);
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: rgb(89, 33, 121);
+    border-radius: 24px;
+    transition: 0.25px;
+    font-size: large;
+}
+.log_box input[type="text"], .log_box input[type="password"]{
+    width: 270px;
+    border-color: rgb(39, 9, 51);
+
+}
+.log_box input[type="submit"]{
+
+    border: 0;
+    background-color: rgb(169,105,194);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(34,2,49);
+    padding: 14px 35px;
+    /* font-size: large; */
+    outline: none;
+    color: rgb(20, 3, 39);
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+.log_box input[type="submit"]:hover{
+    background-color: rgb(162, 11, 221);
+}
+
+.nav_bar{
+    /* transform: translate(-50%,-50%); */
+    text-decoration: none;
+    margin-left: 40%;
+    position: absolute;
+    background-color: rgba(182, 159, 31, 0.2);
+    color: thistle;
+    font-size: large;
+   
+}
+
+.contain{
+    margin-top: 2%;
+}
+
