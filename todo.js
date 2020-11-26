@@ -5,11 +5,14 @@ function validation(){
         {
         
             setTimeout(() => { 
-                var url = window.location.host+'/list.html'    ;
-    console.log('http://'+window.location.host+'/list.html' );
+                var url = window.location.host+'list.html'    ;
+                console.log('http://'+window.location.host+'list.html' );
 
-    window.location.href= 'http://'+window.location.host+'/list.html' ;   
-    return false;
+                // window.location.href= 'http://'+window.location.host+'/list.html' ;  
+                
+                document.location.href = 'list.html'
+                
+                return false;
                 
             }, 300);        
         }           
